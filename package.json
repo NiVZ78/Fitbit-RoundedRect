@@ -1,0 +1,19 @@
+{
+  "fitbit": {
+    "appUUID": "0799ef3d-2293-4093-8d53-9a612cb4af73",
+    "appType": "app",
+    "appDisplayName": "RoundRect",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "RoundRect"
+      }
+    }
+  }
+}
