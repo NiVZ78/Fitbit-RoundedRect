@@ -1,1 +1,22 @@
+<svg>
 
+  <symbol id="roundRect">
+    <circle id="rc1" class="rrc" cx="0" cy="0" r="0" fill="inherit" />
+    <circle id="rc2" class="rrc" cx="0" cy="0" r="0" fill="inherit" />
+    <circle id="rc3" class="rrc" cx="0" cy="0" r="0" fill="inherit" />
+    <circle id="rc4" class="rrc" cx="0" cy="0" r="0" fill="inherit" />
+    
+    <rect id="rr1" class="rrr" x="0" y="0" width="0" height="30" fill="inherit" />
+    <rect id="rr2" class="rrr" x="0" y="0" width="0" height="10" fill="inherit" />
+    
+  </symbol>
+      
+    <use id="roundRect1" href="#roundRect" x="0" y="0" fill="white" />
+    <use id="roundRect2" href="#roundRect" x="0" y="0" fill="black" />
+    
+    <use id="roundRect3" href="#roundRect" x="0" y="0" fill="#f8682c" />
+    <use id="roundRect4" href="#roundRect" x="0" y="0" fill="#91c300" />
+    <use id="roundRect5" href="#roundRect" x="0" y="0" fill="#00b4f1" />
+    <use id="roundRect6" href="#roundRect" x="0" y="0" fill="#ffc300" />
+
+</svg>
