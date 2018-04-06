@@ -36,7 +36,7 @@ function setRoundedRect(roundRect, x, y, w, h, r){
 
   let rects = roundRect.getElementsByClassName("rrr");
   
-  setRect(rects[0], x+r, y, w-r-r, h);
+  setRect(rects[0], x+r, y, w-r-r, h+1);
   setRect(rects[1], x, y+r, w, h-r-r);
   
   
